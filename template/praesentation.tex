@@ -1,5 +1,6 @@
 % Beamer-Klasse
-\documentclass[aspectratio=43]{beamer} 	% 4:3 Format%\documentclass[aspectratio=169]{beamer} % 16:9 Format
+\documentclass[aspectratio=43]{beamer} 	% 4:3 Format
+%\documentclass[aspectratio=169]{beamer} % 16:9 Format
 
 % Pakete laden
 \input{template/pakete}
@@ -61,6 +62,9 @@
 %\usepackage{style/beamer_ww}		% deutsch
 %\usepackage{style/beamer_ww-en}		% english
 
+$for(header-includes)$
+$header-includes$
+$endfor$
 
 %===weitere Designs===
 % Stil des Lehrstuhls für Elektromagnetische Verträglichkeit laden
